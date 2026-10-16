@@ -1,0 +1,37 @@
+repos:
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.15.5
+    hooks:
+      - id: ruff-check
+        args: [--fix]
+      - id: ruff-format
+
+  - repo: local
+    hooks:
+      - id: makefile-parse
+        name: makefile parse
+        entry: bash -c 'cd labs/lab01 && make -n checks'
+        language: system
+        files: ^labs/lab01/Makefile$
+        pass_filenames: false
+
+      - id: pyright
+        name: pyright
+        entry: bash -c 'cd labs/lab01 && uv run pyright'
+        language: system
+        files: ^labs/lab01/.*\.py$
+        pass_filenames: false
+
+      # - id: pytest
+      #   name: pytest
+      #   entry: bash -c 'cd labs/lab01 && uv run pytest'
+      #   language: system
+      #   pass_filenames: false
+      #   always_run: true
+      #   stages: [pre-push]
+
+  - repo: https://github.com/commitizen-tools/commitizen
+    rev: v4.13.9
+    hooks:
+      - id: commitizen
+        stages: [commit-msg]
