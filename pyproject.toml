@@ -1,9 +1,11 @@
 [project]
 name = "bkihack12"
 version = "1.0.0"
-description = "hackathon project"
+description = "Toruń My City hackathon project backend"
 requires-python = ">=3.12,<=3.13"
 dependencies = [
+    "flask>=3.1.0",
+    "flask-cors>=5.0.0",
     "numpy>=2.0.0",
     "pandas>=2.2.0",
     "seaborn>=0.13.2",
@@ -24,12 +26,7 @@ dev = [
 [tool.ruff]
 target-version = "py311"
 line-length = 100
-exclude = [
-  ".venv",
-  ".pytest_cache",
-  ".ruff_cache",
-  "__pycache__",
-]
+exclude = [".venv", ".pytest_cache", ".ruff_cache", "__pycache__"]
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "UP", "B", "SIM", "PTH", "RUF"]
@@ -37,9 +34,6 @@ ignore = ["E501"]
 
 [tool.ruff.lint.isort]
 known-first-party = ["src", "graphs", "utils"]
-
-[tool.ruff.lint.per-file-ignores]
-"*.ipynb" = ["E402", "I001"]
 
 [tool.ruff.format]
 quote-style = "double"
@@ -64,9 +58,7 @@ reportUndefinedVariable = false
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 pythonpath = ["src"]
-filterwarnings = [
-    "ignore::RuntimeWarning:importlib._bootstrap",
-]
+filterwarnings = ["ignore::RuntimeWarning:importlib._bootstrap"]
 
 [tool.commitizen]
 name = "cz_conventional_commits"
