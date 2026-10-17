@@ -1,0 +1,167 @@
+
+{
+  "city": "Toruń",
+  "country": "Poland",
+  "events": [
+    {
+      "title": "Spektakl komediowy jakiego jeszcze nie było!",
+      "date": "2026-11-02",
+      "time": "19:00",
+      "place": "Aula UMK, ul. Gagarina 11",
+      "short_description": "Comedy theatre performance.",
+      "people_interested": null
+    },
+    {
+      "title": "MAŁACH w TORUNIU",
+      "date": "2026-11-05",
+      "time": "20:00",
+      "place": "Lizard King, ul. Kopernika 3",
+      "short_description": "Live music concert by MAŁACH.",
+      "people_interested": null
+    },
+    {
+      "title": "Chemik Bydgoszcz - Elana Toruń",
+      "date": "2026-11-07",
+      "time": "17:00",
+      "place": "Stadion im. Czesława Kobusa",
+      "short_description": "Football match in the third league.",
+      "people_interested": null
+    },
+    {
+      "title": "Trasa z hitami K-POP w Polsce",
+      "date": "2026-11-07",
+      "time": "18:00",
+      "place": "Aula UMK, ul. Gagarina 11",
+      "short_description": "K-pop music event.",
+      "people_interested": null
+    },
+    {
+      "title": "ARMIA GRA LEGENDĘ",
+      "date": "2026-11-08",
+      "time": "18:00",
+      "place": "Lizard King, ul. Kopernika 3",
+      "short_description": "Live music concert by ARMIA.",
+      "people_interested": null
+    },
+    {
+      "title": "Nowy program! KWESTIA SMAKU",
+      "date": "2026-11-08",
+      "time": "18:00",
+      "place": "Dwa Światy, ul. Ducha Świętego 10/12",
+      "short_description": "Comedy and stand-up performance.",
+      "people_interested": null
+    },
+    {
+      "title": "Młody tata",
+      "date": "2026-11-08",
+      "time": "18:00",
+      "place": "Klub NRD, ul. Browarna 6",
+      "short_description": "Cabaret performance.",
+      "people_interested": null
+    },
+    {
+      "title": "Nowy program",
+      "date": "2026-11-08",
+      "time": "19:00",
+      "place": "Aula UMK, ul. Gagarina 11",
+      "short_description": "Live stage performance; further details to verify.",
+      "people_interested": null
+    },
+    {
+      "title": "Premiera nowego programu: WSZYSTKO DOBRZE",
+      "date": "2026-11-09",
+      "time": "19:00",
+      "place": "Centrum Kultury i Sztuki Od Nowa, ul. Gagarina 37a",
+      "short_description": "Cabaret premiere.",
+      "people_interested": null
+    },
+    {
+      "title": "Turbo + TSA (MNKWL) + Butelka",
+      "date": "2026-11-10",
+      "time": "18:00",
+      "place": "Lizard King, ul. Kopernika 3",
+      "short_description": "Live rock concert featuring multiple bands.",
+      "people_interested": null
+    },
+    {
+      "title": "Yehuda Prokopowicz",
+      "date": "2026-11-10",
+      "time": "19:00",
+      "place": "Aula UMK, ul. Gagarina 11",
+      "short_description": "Live musical performance.",
+      "people_interested": null
+    },
+    {
+      "title": "Premiera nowego programu: ŻYCIE JEST NOBELON",
+      "date": "2026-11-12",
+      "time": "19:00",
+      "place": "Centrum Kultury i Sztuki Od Nowa, ul. Gagarina 37a",
+      "short_description": "Cabaret and comedy performance.",
+      "people_interested": null
+    },
+    {
+      "title": "Booze & Glory w TORUNIU",
+      "date": "2026-11-12",
+      "time": "20:00",
+      "place": "Lizard King, ul. Kopernika 3",
+      "short_description": "Live punk rock concert.",
+      "people_interested": null
+    },
+    {
+      "title": "Happysad w Toruniu",
+      "date": "2026-11-13",
+      "time": "18:00",
+      "place": "Klub Od Nowa, ul. Gagarina 37a",
+      "short_description": "Live concert by Happysad.",
+      "people_interested": null
+    },
+    {
+      "title": "Wyjątkowy koncert pełen emocji i klasyki",
+      "date": "2026-11-13",
+      "time": "20:00",
+      "place": "Aula UMK, ul. Gagarina 11",
+      "short_description": "Concert featuring classic music; program to verify.",
+      "people_interested": null
+    },
+    {
+      "title": "Elana Toruń - Stargard Szczeciński",
+      "date": "2026-11-14",
+      "time": "13:00",
+      "place": "Stadion Miejski im. Grzegorza Duneckiego",
+      "short_description": "Football match.",
+      "people_interested": null
+    },
+    {
+      "title": "Stare Dobre Małżeństwo",
+      "date": "2026-11-15",
+      "time": "17:00",
+      "place": "Aula UMK, ul. Gagarina 11",
+      "short_description": "Concert by Stare Dobre Małżeństwo.",
+      "people_interested": null
+    },
+    {
+      "title": "Katarzyna Groniec - Bliżej",
+      "date": "2026-11-15",
+      "time": "19:00",
+      "place": "Lizard King, ul. Kopernika 3",
+      "short_description": "Live concert by Katarzyna Groniec.",
+      "people_interested": null
+    },
+    {
+      "title": "Lady Pank - 45 lat",
+      "date": "2026-11-15",
+      "time": "19:00",
+      "place": "Arena Toruń, ul. Gen. J. Bema 73-89",
+      "short_description": "Anniversary concert by Lady Pank.",
+      "people_interested": null
+    },
+    {
+      "title": "Solowy program stand-upowy Wiktora Sumlińskiego",
+      "date": "2026-11-17",
+      "time": "19:00",
+      "place": "Od Nowa - mała scena, ul. Gagarina 37a",
+      "short_description": "Solo stand-up comedy show.",
+      "people_interested": null
+    }
+  ]
+}
