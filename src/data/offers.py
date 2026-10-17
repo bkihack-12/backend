@@ -1,0 +1,75 @@
+from typing import Any
+
+
+OFFERS: list[dict[str, Any]] = [
+    {
+        "id": "of-2",
+        "kind": "offer",
+        "category": "kultura",
+        "business": "Muzeum Okręgowe w Toruniu",
+        "title": "Wystawy w Ratuszu i wieża widokowa",
+        "location": "Rynek Staromiejski 1",
+        "address": "Rynek Staromiejski 1, Toruń",
+        "expiresAt": None,
+        "conditions": "Zniżka po okazaniu Karty Mieszkańca.",
+        "description": "Wystawy stałe i wieża widokowa w cenie ulgowej.",
+        "tkm": True,
+        "benefitTag": "-30% dla mieszkańca",
+        "hours": "Wt–Nd 10:00–18:00",
+        "code": "TKM30",
+    },
+    {
+        "id": "of-3",
+        "kind": "offer",
+        "category": "sport",
+        "business": "Aqua Toruń — Pływalnia",
+        "title": "Wejście 60 min na basen",
+        "location": "ul. Bażyńskich 9",
+        "address": "ul. Bażyńskich 9, Toruń",
+        "expiresAt": None,
+        "conditions": "Obowiązuje z aktywnym pakietem mieszkańca.",
+        "description": "Bilet godzinny na basen sportowy i rekreacyjny.",
+        "tkm": True,
+        "benefitTag": "-25% dla mieszkańca",
+        "hours": "Pn–Nd 6:30–21:30",
+        "code": "AQUA25",
+    },
+    {
+        "id": "of-1",
+        "kind": "sponsored",
+        "category": "gastronomia",
+        "business": "Piernikarnia Pod Gwiazdą",
+        "title": "Drugi piernik do kawy gratis",
+        "location": "ul. Żeglarska 12",
+        "address": "ul. Żeglarska 12, Toruń",
+        "expiresAt": None,
+        "conditions": "Dla zamówień na miejscu.",
+        "description": "Klasyczne pierniki korzenne z nadzieniem różanym.",
+        "tkm": False,
+        "benefitTag": None,
+        "hours": "Pn–Nd 9:00–19:00",
+        "code": "PIERNIK2",
+    },
+]
+
+
+BENEFITS: list[dict[str, Any]] = [
+    {
+        "id": "ben-mzk",
+        "title": "Tańsze bilety komunikacji MZK",
+        "discount": "do -25%",
+        "place": "Wszystkie linie tramwajowe i autobusowe",
+        "category": "transport",
+        "description": "Bilet miejski w niższej taryfie dla mieszkańców.",
+        "icon": "bus-outline",
+    },
+    {
+        "id": "ben-kultura",
+        "title": "Muzea, Planetarium i CKK Jordanki",
+        "discount": "-20% do -50%",
+        "place": "Instytucje kultury Torunia",
+        "category": "kultura",
+        "description": "Ulgi na wystawy, seanse i koncerty.",
+        "icon": "color-palette-outline",
+    },
+]
