@@ -6,12 +6,14 @@ from routes.events import events_bp
 from routes.offers import offers_bp
 from routes.traffic import traffic_bp
 from routes.transit import transit_bp
+from routes.auth import auth_bp
 
 
 def create_app() -> Flask:
     app = Flask(__name__)
     CORS(app)
 
+    app.register_blueprint(auth_bp)
     app.register_blueprint(dashboard_bp)
     app.register_blueprint(events_bp)
     app.register_blueprint(traffic_bp)
